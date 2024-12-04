@@ -14,7 +14,7 @@ public class Algorithms {
         int greatest = greatest();
         int least = least();
         int sum = sum();
-        int avg = sum / numofnums();
+        double avg = (double) sum / numofnums();
         System.out.println(odds);
         s.close();
     }
